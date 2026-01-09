@@ -1,0 +1,7 @@
+{
+  "name": "Copy of WealthWise",
+  "description": "A smart financial companion featuring real-time task budgeting, prioritized savings goals, and AI-driven investment insights.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
