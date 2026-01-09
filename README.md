@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+WealthWise: Personal Financial Intelligence Platform
+WealthWise is a robust financial management system engineered to provide users with granular control over their fiscal health. The platform integrates advanced expense monitoring, strategic budgeting, and data-driven insights to facilitate informed financial decision-making.
 
-# Run and deploy your AI Studio app
+Project Overview
+WealthWise addresses the complexity of modern personal finance by consolidating disparate data points into a unified, actionable dashboard. The application is designed with a focus on high availability, data integrity, and a minimalist user experience.
 
-This contains everything you need to run your app locally.
+Core Functionalities
+Dynamic Asset Tracking: Real-time monitoring of liquid and non-liquid assets across multiple categories.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1LC9dVsgWk-LGTiT8EzSo-AqZXgu2Wx3a
+Algorithmic Budgeting: Predictive models to assist users in maintaining fiscal discipline through automated limit tracking.
 
-## Run Locally
+Advanced Data Visualization: High-fidelity graphical representations of spending velocity and historical trends.
 
-**Prerequisites:**  Node.js
+Secure Authentication: Implementation of robust authorization protocols to ensure the confidentiality of sensitive financial data.
+
+Categorical Intelligence: Systematic classification of expenditures to identify areas of financial leakage.
+
+Technical Architecture
+The system utilizes a decoupled architecture to ensure modularity and ease of maintenance.
+
+Frontend Environment: Built with a component-based architecture for optimized rendering performance and cross-platform compatibility. (e.g., React.js / Vite)
+
+State Management: Centralized state handling for consistent data flow across the application lifecycle.
+
+Backend Services: Scalable server-side logic managing complex business rules and API orchestration.
+
+Database Management: Structured data storage ensuring high-performance query execution and relational integrity.
+
+Styling & UI: Modern utility-first CSS framework for a responsive, accessible interface.
+
+Installation and Deployment
+System Requirements
+Node.js (LTS Version)
+
+Package Manager (NPM or Yarn)
+
+Environment variable configuration for API integrations
+
+Setup Procedure
+Clone the Repository
+
+Bash
+
+git clone https://github.com/pavithrasugumar-28/WealthWise.git
+cd WealthWise
+git checkout supreme
+Install Dependencies
+
+Bash
+
+npm install
+Configure Environment Variables Create a .env file in the root directory and populate it with the necessary credentials:
+
+Code snippet
+
+DB_CONNECTION_STRING=your_connection_string
+API_SECRET_KEY=your_secret_key
+Execute Application
+
+Bash
+
+npm run dev
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Development Roadmap
+Phase 1: Implementation of multi-currency support and real-time exchange rate integration.
+
+Phase 2: Development of an AI-driven advisory engine for personalized investment suggestions.
+
+Phase 3: Integration of third-party banking APIs for automated transaction synchronization.
+
